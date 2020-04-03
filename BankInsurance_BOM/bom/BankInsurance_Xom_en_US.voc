@@ -1,0 +1,12 @@
+# Vocabulary Properties
+uuid = 6615e680-685a-46ad-81b7-7c8cf0966252
+
+# com.Qualorbis.InputEntry
+com.Qualorbis.InputEntry#concept.label = input entry
+com.Qualorbis.InputEntry.year#phrase.action = set the year of {this} to {year}
+com.Qualorbis.InputEntry.year#phrase.navigation = {year} of {this}
+
+# com.Qualorbis.OutputEntry
+com.Qualorbis.OutputEntry#concept.label = output entry
+com.Qualorbis.OutputEntry.interestRate#phrase.action = set the interest rate of {this} to {interest rate}
+com.Qualorbis.OutputEntry.interestRate#phrase.navigation = {interest rate} of {this}

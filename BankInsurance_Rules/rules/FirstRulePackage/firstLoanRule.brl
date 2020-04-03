@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>firstLoanRule</name>
+  <uuid>4f199c8d-4525-4576-b521-67399e2fdce7</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions
+    set 'variable1' to an input entry from inputEntry ;
+    set 'variable2' to an output entry from outputEntry ;
+if
+    the year of variable1 is 20
+then
+    set the interest rate of variable2 to 15 ;]]></definition>
+  <status>validated</status>
+</ilog.rules.studio.model.brl:ActionRule>

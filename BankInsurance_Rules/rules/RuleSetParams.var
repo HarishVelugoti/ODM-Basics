@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>RuleSetParams</name>
+  <uuid>a76130e0-bacb-4df0-8fd1-ba36a7d8ede3</uuid>
+  <variables name="inputEntry" type="com.Qualorbis.InputEntry" initialValue="" verbalization="inputEntry"/>
+  <variables name="outputEntry" type="com.Qualorbis.OutputEntry" initialValue="" verbalization="outputEntry"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,21 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/BankInsurance_BOM//BankInsurance_Xom"
+property uuid "1a6f21cc-8e5f-4246-baca-39ec26442a7b"
+package com.Qualorbis;
+
+
+public class InputEntry
+        extends java.io.Serializable
+{
+    public int year;
+    public InputEntry();
+}
+
+public class OutputEntry
+        extends java.io.Serializable
+{
+    public int interestRate;
+    public OutputEntry();
+}
+

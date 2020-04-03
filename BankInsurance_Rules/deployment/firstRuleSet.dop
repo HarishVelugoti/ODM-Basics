@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="firstRuleSet" ruleflowName="MainRF" targetRuleProjectName="BankInsurance_Rules">
+  <name>firstRuleSet</name>
+  <uuid>24f6fbeb-7bb1-4c35-93a5-a396a57d8b11</uuid>
+  <referencedVariables variableName="inputEntry" variableSetName="RuleSetParams">
+    <variableSet href="../rules/RuleSetParams.var#a76130e0-bacb-4df0-8fd1-ba36a7d8ede3"/>
+  </referencedVariables>
+  <referencedVariables variableName="outputEntry" variableSetName="RuleSetParams" direction="IN_OUT">
+    <variableSet href="../rules/RuleSetParams.var#a76130e0-bacb-4df0-8fd1-ba36a7d8ede3"/>
+  </referencedVariables>
+  <ruleflow href="../rules/MainRF.rfl#d82fbaa0-0738-454a-a1aa-26d1b554ba59"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="firstRuleSet_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../BankInsurance_Rules#cdab9993-0f8e-4798-b066-a1edaf45dc85"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
