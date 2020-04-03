@@ -7,7 +7,7 @@
     set 'variable1' to an input entry from inputEntry ;
     set 'variable2' to an output entry from outputEntry ;
 if
-    the year of variable1 is 25
+    the year of variable1 is 60
 then
     set the interest rate of variable2 to 15 ;]]></definition>
   <status>validated</status>
